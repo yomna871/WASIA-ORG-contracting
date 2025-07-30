@@ -3,73 +3,83 @@
 <html lang="ar" dir="rtl">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>مؤسسة واسيا للمقاولات</title>
     <style>
         body {
-            font-family: 'Tahoma', sans-serif;
-            background-color: #f3f3f3;
-            color: #222;
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
             margin: 0;
-            padding: 40px;
+            padding: 0;
             direction: rtl;
         }
+        header {
+            background-color: #005483;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
         .container {
-            max-width: 800px;
+            max-width: 900px;
             margin: auto;
             background: white;
-            padding: 30px;
-            border-radius: 10px;
+            padding: 20px;
             box-shadow: 0 0 10px rgba(0,0,0,0.1);
         }
-        h1, h2 {
-            color: #0c4b83;
+        h2 {
+            color: #005483;
         }
-        .section {
-            margin-bottom: 25px;
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        td {
+            padding: 8px 12px;
+            border-bottom: 1px solid #ccc;
+        }
+        tr:nth-child(odd) {
+            background-color: #f9f9f9;
         }
         .label {
             font-weight: bold;
-        }
-        .value {
-            margin-right: 10px;
-        }
-        .row {
-            margin: 8px 0;
+            width: 30%;
         }
     </style>
 </head>
 <body>
-    <div class="container">
+    <header>
         <h1>مؤسسة واسيا للمقاولات</h1>
+        <p>الصفحة التعريفية - منصة بلدي</p>
+    </header>
+    <div class="container">
         <h2>بيانات الشهادة</h2>
-        <div class="section">
-            <div class="row"><span class="label">حالة الشهادة:</span> <span class="value">نشط</span></div>
-            <div class="row"><span class="label">رقم الشهادة:</span> <span class="value">2024012900</span></div>
-            <div class="row"><span class="label">تاريخ إصدار الشهادة:</span> <span class="value">06/11/2024</span></div>
-            <div class="row"><span class="label">تاريخ انتهاء الشهادة:</span> <span class="value">06/11/2026</span></div>
-            <div class="row"><span class="label">نوع التصنيف:</span> <span class="value">تصنيف المنشآت</span></div>
-            <div class="row"><span class="label">القطاع:</span> <span class="value">قطاع التشييد والبناء</span></div>
-            <div class="row"><span class="label">درجة الشهادة:</span> <span class="value">1</span></div>
-            <div class="row"><span class="label">درجة التقييم الفني:</span> <span class="value">84</span></div>
-            <div class="row"><span class="label">درجة التقييم الائتماني:</span> <span class="value">-A</span></div>
-        </div>
-        <h2>بيانات معرف المنشأة</h2>
-        <div class="section">
-            <div class="row"><span class="label">الرقم الوطني الموحد/رقم الترخيص:</span> <span class="value">7002087356</span></div>
-            <div class="row"><span class="label">تاريخ إصدار السجل التجاري / الترخيص:</span> <span class="value">05/06/</span></div>
-            <div class="row"><span class="label">اسم المنشأة:</span> <span class="value">مؤسسة واسيا للمقاولات</span></div>
-            <div class="row"><span class="label">نوع المنشأة:</span> <span class="value">ذات مسؤولية محدودة</span></div>
-            <div class="row"><span class="label">جنسية المنشأة:</span> <span class="value">سعودي</span></div>
-            <div class="row"><span class="label">رأس مال الشركة:</span> <span class="value">102000.0</span></div>
-        </div>
+        <table>
+            <tr><td class="label">حالة الشهادة</td><td>نشط</td></tr>
+            <tr><td class="label">رقم الشهادة</td><td>2024012900</td></tr>
+            <tr><td class="label">تاريخ اصدار الشهادة</td><td>06/11/2024</td></tr>
+            <tr><td class="label">تاريخ انتهاء الشهادة</td><td>06/11/2026</td></tr>
+            <tr><td class="label">نوع التصنيف</td><td>تصنيف المنشأت</td></tr>
+            <tr><td class="label">القطاع</td><td>قطاع التشييد والبناء</td></tr>
+            <tr><td class="label">درجة الشهادة</td><td>1</td></tr>
+            <tr><td class="label">درجة التقييم الفنى</td><td>84</td></tr>
+            <tr><td class="label">درجة التقييم الائتمانى</td><td>-A</td></tr>
+            <tr><td class="label">الرقم الوطنى الموحد/رقم الترخيص</td><td>7002087356</td></tr>
+            <tr><td class="label">تاريخ اصدار السجل التجارى / الترخيص</td><td>05/06/</td></tr>
+            <tr><td class="label">اسم المنشأة</td><td>مؤسسة واسيا للمقاولات</td></tr>
+            <tr><td class="label">نوع المنشأة</td><td>ذات مسئولية محدودة</td></tr>
+            <tr><td class="label">جنسية المنشأة</td><td>سعودى</td></tr>
+            <tr><td class="label">رأس مال الشركة</td><td>102000.0</td></tr>
+        </table>
+
         <h2>التواصل مع المنشأة</h2>
-        <div class="section">
-            <div class="row"><span class="label">المنطقة:</span> <span class="value">منطقة الرياض</span></div>
-            <div class="row"><span class="label">المدينة:</span> <span class="value">الرياض</span></div>
-            <div class="row"><span class="label">رقم الهاتف:</span> <span class="value">0503121482</span></div>
-            <div class="row"><span class="label">رقم الفاكس:</span> <span class="value"></span></div>
-            <div class="row"><span class="label">البريد الإلكتروني:</span> <span class="value">wasia.box@gmail.com</span></div>
-        </div>
+        <table>
+            <tr><td class="label">المنطقة</td><td>منطقة الرياض</td></tr>
+            <tr><td class="label">المدينة</td><td>الرياض</td></tr>
+            <tr><td class="label">رقم الهاتف</td><td>0503121482</td></tr>
+            <tr><td class="label">رقم الفاكس</td><td></td></tr>
+            <tr><td class="label">البريد الالكتروني</td><td>wasia.box@gmail.com</td></tr>
+        </table>
     </div>
 </body>
 </html>
